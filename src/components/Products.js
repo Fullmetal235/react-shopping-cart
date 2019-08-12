@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 
 // Components
 import Product from './Product';
-import {ProductContext} from '../contexts/ProductContext.js'
+import {ProductContext} from '../context/ProductContext.js'
 
 const Products = () => {
 
