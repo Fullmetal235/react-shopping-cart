@@ -38,8 +38,7 @@ function App() {
 			/>
 
 			<Route
-				path="/cart"
-				render={() => <ShoppingCart cart={cart} />}
+				path="/cart" component={ShoppingCart}/>}
 			/>
 			
 		</div>
